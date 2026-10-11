@@ -1,0 +1,8 @@
+def feistel_round(left,right,key):
+    f=right ^ key
+    return right,left ^ f
+left,right,key=10,20,15
+print("Before:",left,right)
+for i in range(4):
+    left,right=feistel_round(left,right,key)
+print("After:",left,right)
