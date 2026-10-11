@@ -29,49 +29,6 @@ pip install pycryptodome cryptography matplotlib python-docx
 ```
 
 ---
-
-## Repository Structure
-
-```text
-d:/CNS_LAB/
-|-- README.md                                    # Comprehensive laboratory guide and documentation
-|-- substitution.py                              # Lab 1: Caesar / Additive shift substitution cipher
-|-- monoalpha.py                                 # Lab 1: General monoalphabetic substitution cipher
-|-- play_fair_cipher.py                          # Lab 2: 5x5 Playfair polygraphic cipher
-|-- hill_cipher.py                               # Lab 2: 2x2 Hill matrix cipher with modular inversion
-|-- Lab_2_Implementation_Playfair_Hill_Cipher.docx # Lab 2 reference documentation
-|-- stream_cipher.py                             # Lab 3: ARC4 stream cipher keystream generator
-|-- feistal_cipher                               # Lab 3: 4-round Feistel network permutation
-|-- Des.py                                       # Lab 3: Data Encryption Standard (DES-ECB)
-|-- triple_Des                                   # Lab 3: Triple DES (3DES-EDE-ECB)
-|-- aes.py                                       # Lab 3: Advanced Encryption Standard (AES-128-CBC)
-|-- CNS_Lab_Documentation.docx                   # Reference documentation for Labs 1, 2, and 3
-|-- lab5_access_control_matrix.py                # Lab 5: Access Control Matrix simulation & telemetry
-|-- CNS_Lab5.docx                                # Lab 5 specification document
-|-- lab5_graphs/                                 # Lab 5 benchmark graphs (5 figures)
-|   |-- lab5_graph1_users_vs_time.png
-|   |-- lab5_graph2_requests_vs_verification.png
-|   |-- lab5_graph3_updates_vs_time.png
-|   |-- lab5_graph4_density_vs_processing.png
-|   `-- lab5_graph5_granted_vs_denied.png
-|-- lab6_cloud_rbac_mutual_auth.py               # Lab 6: Cloud RBAC & X.509 Mutual Authentication
-|-- CNS_Lab6.docx                                # Lab 6 specification document
-|-- lab6_graphs/                                 # Lab 6 benchmark graphs (9 figures)
-|   |-- lab6_graph1_users_vs_auth_time.png
-|   |-- lab6_graph2_users_vs_authz_time.png
-|   |-- lab6_graph3_users_vs_response_time.png
-|   |-- lab6_graph4_requests_vs_authz_time.png
-|   |-- lab6_graph5_updates_vs_update_time.png
-|   |-- lab6_graph6_concurrent_users_vs_throughput.png
-|   |-- lab6_graph7_cert_status_vs_auth_results.png
-|   |-- lab6_graph8_density_vs_processing.png
-|   `-- lab6_graph9_granted_vs_denied.png
-|-- generate_report.py                           # Automated compilation script for Lab 5 & 6 DOCX
-`-- CNS_Lab5_Lab6_Implementation_Report.docx     # Detailed compiled report for Labs 5 and 6
-```
-
----
-
 ## Detailed Experiment Specifications
 
 ### Lab 1: Classical Substitution and Monoalphabetic Ciphers
