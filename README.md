@@ -104,7 +104,6 @@ pip install pycryptodome cryptography matplotlib python-docx
 ```
 
 ---
-<<<<<<< HEAD
 
 ## Lab 1: Classical Substitution Ciphers
 
