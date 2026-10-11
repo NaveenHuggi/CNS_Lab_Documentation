@@ -104,6 +104,7 @@ pip install pycryptodome cryptography matplotlib python-docx
 ```
 
 ---
+<<<<<<< HEAD
 
 ## Lab 1: Classical Substitution Ciphers
 
@@ -160,6 +161,9 @@ print(original_message)
 ---
 
 ### 2. Monoalphabetic Cipher
+=======
+## Detailed Experiment Specifications
+>>>>>>> d77a4794b9b18950b57c8564e729a9e966867d0d
 
 #### Concept
 Constructs a fixed permutation mapping between standard plaintext letters and substituted cipher letters. The implementation provides input validation against duplicate or missing characters, handles uppercase and lowercase cases, and preserves non-alphabetic symbols.
